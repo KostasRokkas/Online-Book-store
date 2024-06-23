@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Bookstore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An online bookstore to find and add books.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Technologies Used](#technologies-used)
+- [Acknowledgments](#acknowledgments)
 
-### `yarn start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Bookstore is an online platform where users can search for books and log book information to the console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `yarn test`
+To get started with the project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   git clone https://github.com/yourusername/bookstore.git
+   cd bookstore
 
-### `yarn build`
+2. Install the required dependencies using Yarn:
+   yarn install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After starting the development server, you can access the application at `http://localhost:3000`. Use the interface to search for books and add new ones to the collection.
 
-### `yarn eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Search for books
+- Log book information to the console for new entry
+- Responsive design
+- User-friendly interface
+- Form validation with Yup and Formik
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Make sure you have the following software installed:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js (version 14 or higher)
+- Yarn (version 1.22 or higher)
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**: ^18.3.1
+- **TypeScript**: ^4.4.2
+- **React Router**: ^6.23.1
+- **Emotion**: ^11.11.4
+- **React Icons**: ^5.2.1
+- **JSS**: ^10.10.0
+- **React Responsive Carousel**: ^3.2.23
+- **Formik**: "^2.4.6"
+- **Yup**: "^1.4.0"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
+
+- React documentation
+- TypeScript documentation
+- Emotion documentation

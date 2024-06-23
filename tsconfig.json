@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",             // Set target to ES2015 or higher
+    "downlevelIteration": true,     // Enable downlevel iteration
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
     "lib": [
       "dom",
       "dom.iterable",

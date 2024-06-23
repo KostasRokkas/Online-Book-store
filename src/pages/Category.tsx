@@ -4,7 +4,7 @@ import { createUseStyles } from "react-jss";
 import { books } from "../books";
 import CustomCarousel from "../components/Carousel";
 import Footer from "../components/Footer";
-import AddBook from "./AddBook";
+import AddBook from "../modals/AddBook";
 
 const styles = createUseStyles({
   Category: {

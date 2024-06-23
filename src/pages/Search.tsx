@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { createUseStyles } from "react-jss";
 import CustomCarousel from "../components/Carousel";
 import Footer from "../components/Footer";
-import AddBook from "./AddBook";
+import AddBook from "../modals/AddBook";
 
 /**
  * Represents a book object with detailed information.

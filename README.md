@@ -54,7 +54,6 @@ Make sure you have the following software installed:
 - **React**: ^18.3.1
 - **TypeScript**: ^4.4.2
 - **React Router**: ^6.23.1
-- **Emotion**: ^11.11.4
 - **React Icons**: ^5.2.1
 - **JSS**: ^10.10.0
 - **React Responsive Carousel**: ^3.2.23
@@ -65,4 +64,3 @@ Make sure you have the following software installed:
 
 - React documentation
 - TypeScript documentation
-- Emotion documentation

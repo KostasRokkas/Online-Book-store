@@ -21,7 +21,7 @@ Bookstore is an online platform where users can search for books and log book in
 To get started with the project, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/bookstore.git
+   git clone https://github.com/KostasRokkas/Online-Book-store
    cd bookstore
 
 2. Install the required dependencies using Yarn:
